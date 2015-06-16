@@ -31,3 +31,14 @@ For this particular session, we'll be working with your command prompt more so t
 ### Clone this entire repo, and copy the files to the root of that application.
 
 Open the root of the application in a code editor such as Sublime Text or Visual Studio.
+
+### CodeShip Test Settings
+SETUP
+nvm install 0.12.4
+nvm use 0.12.4
+
+
+TEST
+npm install mocha -g
+npm install karma-cli -g
+karma start
